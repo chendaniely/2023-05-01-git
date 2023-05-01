@@ -32,3 +32,14 @@
 - `.gitignore`: file of patterns for which files/folders to ignore
 - `.gitkeep`: convention to put a file in a folder you want empty
 
+- `ssh-keygen`: create a ssh key
+	- copy the `~/.ssh/id_rsa.pub` to your github account
+	- use the SSH URL not the HTTPS url
+
+- `git remote add <NAME> <URL>`: `git remote add origin <URL>`
+	- create the remote connection
+- `git push <REMOTE> <BRANCH>`: `git push origin main`
+	- push our code to the remote
+- `git pull <REMOTE> <BRANCH>`
+	- pull code from the remote
+
