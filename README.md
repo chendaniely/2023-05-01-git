@@ -22,3 +22,9 @@
 	- You will be in a detached HEAD state
 	- `git switch main` / `git checkout main`: to reattach to main
 
+- Delete README.md file
+	- THis can also be reverting previous file state
+- `git status`: this is your friend
+	- `git restore <FILE>`: to revert file to pre commimt stage
+- `git checkout <HASH> <FILE>`: revert file from any point in time
+- `git restore --source=<HASH> <FILE>`: the "newer" way to restore a file
