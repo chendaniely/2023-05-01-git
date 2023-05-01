@@ -1,0 +1,241 @@
+  207  mkdir git
+  208  cd git
+  209  pwd
+  210  ls
+  211  git config --global user.name "Daniel Chen"
+  212  git config --global user.email "chendaniely@gmail.com"
+  213  git config --global core.editor "nano -w"
+  214  explorer .
+  215  # open .
+  216  # xdg-open .
+  217  ls
+  218  cd 2023-05-01-git/
+  219  ls
+  220  ls -alh
+  221  ls -a
+  222  git init
+  223  git status
+  224  cd ..
+  225  git status
+  226  cd -
+  227  git status
+  228  git --version
+  229  git status
+  230  nano README.md
+  231  git status
+  232  git add README.md
+  233  git status
+  234  git commit
+  235  git status
+  236  ls
+  237  ls -a
+  238  # define add and commit in your README.md file
+  239  cat README.md
+  240  history
+  241  nano README.md
+  242  git status
+  243  git add README.md
+  244  git status
+  245  git commit
+  246  git status
+  247  nano README.md
+  248  git status
+  249  git add README.md
+  250  git status
+  251  git commit -m "talked about git commit -m"
+  252  git status
+  253  git log
+  254  git log
+  255  git log --oneline
+  256  nano README.md
+  257  git status
+  258  git diff
+  259  git diff README.md
+  260  git add README.md
+  261  git status
+  262  git diff
+  263  git diff --staged
+  264  git status
+  265  git commit -m "define log while showing diff"
+  266  git status
+  267  git diff
+  268  git diff --staged
+  269  nano README.md
+  270  git status
+  271  git diff
+  272  git log --oneline
+  273  git diff ed3ac41
+  274  git diff ed3ac41 README.md
+  275  git status
+  276  git diff
+  277  git status
+  278  git add README.md
+  279  git status
+  280  git commit -m "define HEAD and diff"
+  281  git status
+  282  git log --oneline
+  283  cat README.md
+  284  git checkout aa1c873
+  285  git checkout aa1c873 .
+  286  cat README.md
+  287  history
+  288  git log --oneline
+  289  git checkout aa1c873 .
+  290  git status
+  291  cat README.md
+  292  git status
+  293  git checkout aa1c873
+  294  git checkout main
+  295  git log --oneline
+  296  git checkout aa1c873
+  297  git status
+  298  git log
+  299  git log --oneline
+  300  cat README.md
+  301  git log --oneline --all
+  302  # git checkout main
+  303  # git switch -
+  304  git switch main
+  305  git log --oneline --all
+  306  tail README.md
+  307  history
+  308  nano README.md
+  309  git status
+  310  git diff
+  311  git add README.md
+  312  git commit -m "checkout <HASH>"
+  313  git status
+  314  git log --oneline
+  315  nano README.md
+  316  git status
+  317  git diff
+  318  git status
+  319  git diff
+  320  git status
+  321  git restore README.md
+  322  git status
+  323  git diff
+  324  cat README.md
+  325  ls
+  326  rm README.md
+  327  ls
+  328  git status
+  329  git restore README.md
+  330  ls
+  331  git status
+  332  rm README.md
+  333  git status
+  334  git add README.md
+  335  git commit -m "delete the README file"
+  336  ls
+  337  git log --oneline
+  338  # git checkout c51d607 README.md
+  339  git restore --source=main c51d607 README.md
+  340  git restore --source=main c51d607 README.md
+  341  git restore --source=c51d607 README.md
+  342  ls
+  343  git status
+  344  cat README.md
+  345  git add README.md
+  346  git commit -m "restore the deleted file"
+  347  git log --oneline
+  348  nano README.md
+  349  git log
+  350  nano README.md
+  351  git status
+  352  git add .
+  353  git commit -m "how to restore/revert files"
+  354  nano README.md
+  355  git status
+  356  git log --oneline
+  357  git add README.md
+  358  git commit --amend
+  359  git log --oneline
+  360  ls
+  361  mkdir output
+  362  ls
+  363  git status
+  364  nano .gitignore
+  365  git status
+  366  git add .gitignore
+  367  git commit -m "ignore output folder"
+  368  ls
+  369  touch output/.gitkeep
+  370  git status
+  371  git add -f output/.gitkeep
+  372  git status
+  373  git commit -m "force add output folder"
+  374  git status
+  375  ls
+  376  touch output/output_data.csv
+  377  git status
+  378  nano README.md
+  379  git diff
+  380  nano README.md
+  381  git diff
+  382  git status
+  383  git add README.md
+  384  git commit -m ".gitignore and .gitkeep"
+  385  git status
+  386  git log
+  387  git status
+  388  git log --oneline
+  389  ls
+  390  ls ~/.ssh
+  391  ssh-keygen
+  392  ls ~/.ssh
+  393  cat ~/.ssh/2023-05-01-git.pub
+  394  # cat ~/.ssh/is_rsa.pub
+  395  # cat ~/.ssh/id_rsa.pub
+  396  git remote add origin git@github.com:chendaniely/2023-05-01-git.git
+  397  git remote -v
+  398  git push origin main
+  399  nano ~/.ssh/known_hosts
+  400  mv ~/.ssh/known_hosts ~/.ssh/known_hosts.bkup
+  401  git push origin main
+  402  nano README.md
+  403  git status
+  404  git push --help
+  405  git diff
+  406  nano README.md
+  407  git diff
+  408  nano README.md
+  409  git diff
+  410  git status
+  411  git add README.md
+  412  git commit -m "all the things to setup git <> github"
+  413  git status
+  414  git log --oneline
+  415  git push origin main
+  416  git log --oneline
+  417  git status
+  418  cat README.md
+  419  cat README.md
+  420  git log --oneline
+  421  git pull origin main
+  422  git log --oneline
+  423  cat README.md
+  424  nano README.md
+  425  git status
+  426  git diff
+  427  nano README.md
+  428  git diff
+  429  git add README.md
+  430  git commit -m "add titles from local computer"
+  431  git push origin main
+  432  git pull origin main
+  433  nano README.md
+  434  code README.md
+  435  nano README.md
+  436  git status
+  437  git add README.md
+  438  git status
+  439  git commit -m "fix merge conflicts"
+  440  git status
+  441  git push origin main
+  442  nano README.md
+  443  git status
+  444  git add README.md
+  445  git commit -m "how to fix merge conflicts"
+  446  git push origin main
+  447  history
