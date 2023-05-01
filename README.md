@@ -42,4 +42,5 @@
 	- push our code to the remote
 - `git pull <REMOTE> <BRANCH>`
 	- pull code from the remote
-
+	
+- You can use the github pencil to edit files directly on github
