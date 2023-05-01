@@ -28,3 +28,7 @@
 	- `git restore <FILE>`: to revert file to pre commimt stage
 - `git checkout <HASH> <FILE>`: revert file from any point in time
 - `git restore --source=<HASH> <FILE>`: the "newer" way to restore a file
+
+- `.gitignore`: file of patterns for which files/folders to ignore
+- `.gitkeep`: convention to put a file in a folder you want empty
+
