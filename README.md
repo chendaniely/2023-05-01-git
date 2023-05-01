@@ -55,3 +55,8 @@ Notes and files for the git basics lesson
 ## Merge Conflicts
 
 - You can use the github pencil to edit files directly on github
+
+- `git push origin main`: try to send your change, may return error
+- follow the instructions
+- `git pull origin main`: sync your changes first, it will show you the conflicting files
+- fix conflicts: `>>>>>` `====` and `<<<<<`
