@@ -6,4 +6,4 @@
 
 - `git add`: `git add README.md` add the file to the staging area
 - `git commit`: take whatever is in the staging area and commit it
-
+	- `git commit -m "MY MESSAGE"`: quick oneliner message
