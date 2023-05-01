@@ -1,12 +1,17 @@
-# 2023-01-05-git
+# 2023-01-05: Git Basics Lesson
 
-- `git init`: initialize git repository (repo)
-	- do not nest git repos
+Notes and files for the git basics lesson
+
+## Basic Commands
+
+- `git init`: initialize git repository (repo) - do not nest git repos
 - `git status`: tells you things about what's going on
 
 - `git add`: `git add README.md` add the file to the staging area
 - `git commit`: take whatever is in the staging area and commit it
 	- `git commit -m "MY MESSAGE"`: quick oneliner message
+
+## History
 
 - `git log`: show you the log of all commit messages
 	- `git log --oneline`: 1 line view of log
@@ -29,8 +34,12 @@
 - `git checkout <HASH> <FILE>`: revert file from any point in time
 - `git restore --source=<HASH> <FILE>`: the "newer" way to restore a file
 
+## Ignore files
+
 - `.gitignore`: file of patterns for which files/folders to ignore
 - `.gitkeep`: convention to put a file in a folder you want empty
+
+## Remotes
 
 - `ssh-keygen`: create a ssh key
 	- copy the `~/.ssh/id_rsa.pub` to your github account
@@ -42,5 +51,7 @@
 	- push our code to the remote
 - `git pull <REMOTE> <BRANCH>`
 	- pull code from the remote
+
+## Merge Conflicts
 	
 - You can use the github pencil to edit files directly on github
