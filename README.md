@@ -53,5 +53,5 @@ Notes and files for the git basics lesson
 	- pull code from the remote
 
 ## Merge Conflicts
-	
+
 - You can use the github pencil to edit files directly on github
